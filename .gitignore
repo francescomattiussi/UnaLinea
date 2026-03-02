@@ -8,3 +8,8 @@ venv/
 # file generati
 __pycache__/
 *.pyc
+
+# PyInstaller output
+build/
+dist/
+*.spec

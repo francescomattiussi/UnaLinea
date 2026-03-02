@@ -60,7 +60,7 @@ pip install -r requirements.txt   # oppure i pacchetti sopra
 # copiare credentials.json nella cartella del progetto
 
 # eseguire
-python main.py
+python unalinea.py
 ```
 
 Alla prima esecuzione, l'app tenterà di aprire il browser per chiedere
@@ -69,7 +69,7 @@ l'autorizzazione all'accesso Google; dopo il consenso genererà un file
 
 ## Uso
 
-1. Avvia l'app (`python main.py`).
+1. Avvia l'app (`python unalinea.py`).
 2. Se non è già loggato, si aprirà un browser per autorizzare l'accesso.
 3. La combobox verrà popolata con i documenti Google Docs modificabili; l'ultima
    voce è **"Nuovo documento..."** per crearne uno nuovo.
@@ -87,7 +87,7 @@ l'autorizzazione all'accesso Google; dopo il consenso genererà un file
 
 ## Struttura del progetto
 
-- `main.py` – codice principale dell'applicazione.
+- `unalinea.py` – codice principale dell'applicazione.
 - `prompt.txt` – prompt originale usato per generare il codice con AI.
 - `requirements.txt` – elenco pacchetti richiesti (se presente).
 - `.gitignore` – file per escludere venv, credenziali, token, ecc.
