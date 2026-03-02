@@ -1,0 +1,19 @@
+Voglio creare una piccola applicazione scritta in Python e che usi la libreria grafica Tk. L'interfaccia sarà così disegnata, gli elementi saranno dispositi secondo una griglia di due colonne e tre righe, la prima colonna sarà larga 3/4 dello spazio, la seconda colonna sarà larga 1/4 dello spazio.
+Nella prima colonna gli elementi saranno così disposti partendo dall'alto, gli elementi occupano tutta la larghezza della riga:
+- Prima riga: un combo box
+- Seconda riga: un text field, non una text area
+- Terza riga: un label
+
+Nella seconda colonna ci saranno questi tre pulsanti partendo dall'alto, gli elementi occupano tutta la larghezza della riga:
+- Prima riga: un pulsante con etichetta "Seleziona"
+- Seconda riga: un pulsante con etichetta "Salva"
+- Terza riga: un pulsante con etichetta "Accedi" che diventerà "Esci" quando un utente avrà effettuato l'accesso
+
+L'utente accede con un account Google (tramite OAuth e schermata di login), la combo box verrà popolata con una lista di tutti i documenti Google che l'utente può modificare, una volta cliccato l'elemento rappresentante il documento il pulsante "Seleziona" lo selezionerà come documento attivo.
+Nella combo box ci sarà sempre un ultimo elemento denominato "Nuovo documento", quando questo elemento viene cliccato, e poi tramite il pulsante "Seleziona" lo si vorrà rendere attivo, apparirà un pop-up con un text field dove si chiede di inserire all'utente il nome del documento da creare. Il pop-up avrà due pulsanti di controllo, uno chiamato "Annulla" per annullare l'operazione e uno chiamato "Crea" per creare il nuovo documento secondo il nome scelto.
+Il testo che verrà immesso nel text field verrà AGGIUNTO al documento selezionato ogni qual volta il pulsante "Salva" verrà premuto.
+Il label sottostante indicherà la data e l'ora dell'ultima modifica al documento, cioè l'ultimo salvataggio.
+
+Lo scopo dell'applicazione è quello di poter aggiungere testo a un documento Google in maniera molto minimale e discreta, non è necessaria la visione del documento.
+
+Il programma deve essere in italiano.

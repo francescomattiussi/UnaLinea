@@ -1,0 +1,10 @@
+# credenziali e token OAuth
+credentials.json
+token.pickle
+
+# ambiente virtuale
+venv/
+
+# file generati
+__pycache__/
+*.pyc
